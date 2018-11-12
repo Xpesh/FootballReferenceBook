@@ -8,7 +8,7 @@ public interface Model {
     Game getGame(int id);
     Judge getJudge(int id);
     Judge getJudge(String firstName, String secondName);
-    Judge getPlayer(String firstName, String secondName);
-    Judge getPlayer(int id);
+    Player getPlayer(String firstName, String secondName);
+    Player getPlayer(int id);
     Transfer getTransfer(int id);
 }
