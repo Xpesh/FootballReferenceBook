@@ -1,7 +1,7 @@
 package model;
 
 public class Player extends Person{
-    private FootballСlub footballСlub;
+    private FootballClub footballСlub;
     private int position;
     private double cost;
 

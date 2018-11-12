@@ -2,11 +2,11 @@ package model;
 
 import java.util.ArrayList;
 
-public class FootballСlub {
+public class FootballClub {
     private String name;
     private String league;
     private double budget;
-    private Сountry country;
+    private Country country;
     private ArrayList<Player> players;
 
 }

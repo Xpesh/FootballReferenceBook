@@ -2,10 +2,10 @@ package model;
 
 import java.util.ArrayList;
 
-public class Сountry {
+public class Country {
     private String name;
     private String president;
     private String capital;
-    private ArrayList<FootballСlub> footballСlubs;
+    private ArrayList<FootballClub> footballСlubs;
 
 }
