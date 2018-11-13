@@ -10,6 +10,16 @@ public class ClassModel implements Model {
     private ArrayList<Player> players;
     private ArrayList<Transfer> transfers;
 
+    public ClassModel(ArrayList<Country> countries, ArrayList<FootballClub> footballClubs, ArrayList<Game> games,
+                      ArrayList<Judge> judges, ArrayList<Player> players, ArrayList<Transfer> transfers) {
+        this.countries = countries;
+        this.footballClubs = footballClubs;
+        this.games = games;
+        this.judges = judges;
+        this.players = players;
+        this.transfers = transfers;
+    }
+
     @Override
     public Country getCountry(String name) {
         for(Country country : countries){
